@@ -184,7 +184,7 @@ def detect_columns(df):
     def find(options):
         for opt in options:
             for i, col in enumerate(cols):
-                if opt in col:
+                if opt.lower() in col:
                     return df.columns[i]
         return None
 
@@ -261,6 +261,46 @@ if uploaded:
     else:
         ts, co2, pm25, voc, temp, hum, noise, co, light, occ = detect_columns(data)
 
+        # ============================
+        # SPECIAL HANDLING FOR NOISE MODELS
+        # ============================
+
+        if "noise" in cfg["key"]:  # If model key contains 'noise'
+            # Required features used during training of noise model
+            required_noise_features = [
+                "Engagement_Score",
+                "Attention_Level",
+                "Feedback_Time (ms)",
+                "Temperature (°C)"
+            ]
+
+            # Try to find each required column in the dataset
+            mapped_noise_features = []
+            missing = []
+
+            for col in required_noise_features:
+                col_clean = col.lower().replace("(°c)", "").replace("(ms)", "").replace(" ", "")
+                found = None
+
+                for df_col in data.columns:
+                    df_clean = df_col.lower().replace("(°c)", "").replace("(ms)", "").replace(" ", "")
+                    if col_clean in df_clean:
+                        found = df_col
+
+                if found:
+                    mapped_noise_features.append(found)
+                else:
+                    missing.append(col)
+
+            # If missing columns → STOP prediction
+            if missing:
+                st.error(f"Missing required noise column")
+                st.stop()
+
+            # Use ONLY these features for noise models
+            feature_cols = mapped_noise_features
+            targets = ["Classroom_Noise"]
+
         # ------------------ NOISE MODELS ------------------
         if "Noise" in model_choice:
             targets = [noise]
@@ -271,8 +311,17 @@ if uploaded:
 
         # ------------------ IAQ MODELS ------------------
         else:
-            feature_cols = [x for x in [co2, pm25, voc, temp, hum, co, light, occ] if x]
-            targets = [x for x in [co2, pm25, voc, temp, hum] if x]
+            available_iaq = [x for x in [co2, pm25, voc, temp, hum] if x]
+
+            if len(available_iaq) == 0:
+                st.error("No IAQ-related columns detected (CO₂, PM2.5, VOC, Temperature, Humidity).")
+                st.stop()
+            else:
+                st.info(f"Using detected IAQ features: {', '.join(available_iaq)}")
+
+            # Use the available columns for IAQ models
+            feature_cols = available_iaq + [c for c in [co, light, occ] if c]
+            targets = available_iaq
 
         # Dummy padding only for IAQ models
         if expected_features is not None:
