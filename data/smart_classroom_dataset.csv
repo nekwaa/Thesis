@@ -1,0 +1,101 @@
+Student_ID,Timestamp,Activity_Type,Engagement_Score,Attention_Level,Feedback_Time (ms),Classroom_Noise (dB),Temperature (°C),Learning_Outcome,Performance_Class
+1,2024-11-26 10:00:00,Lecture,67,Medium,397,42,20,52.93,Needs Improvement
+2,2024-11-26 10:01:00,Problem Solving,75,Medium,198,40,24,60.52,Needs Improvement
+3,2024-11-26 10:02:00,Quiz,93,High,362,59,21,76.48,Average
+4,2024-11-26 10:03:00,Lecture,83,Medium,351,40,21,64.59,Needs Improvement
+5,2024-11-26 10:04:00,Lecture,59,High,243,42,24,53.87,Needs Improvement
+6,2024-11-26 10:05:00,Problem Solving,85,High,445,57,23,70.05,Average
+7,2024-11-26 10:06:00,Quiz,63,Medium,211,49,21,51.99,Needs Improvement
+8,2024-11-26 10:07:00,Quiz,80,Medium,159,42,23,64.41,Needs Improvement
+9,2024-11-26 10:08:00,Lecture,97,Medium,468,47,21,73.22,Average
+10,2024-11-26 10:09:00,Group Discussion,64,Low,101,53,21,48.79,Needs Improvement
+11,2024-11-26 10:10:00,Lecture,57,Medium,484,57,22,45.06,Needs Improvement
+12,2024-11-26 10:11:00,Lecture,63,Low,403,54,21,45.07,Needs Improvement
+13,2024-11-26 10:12:00,Lecture,72,High,353,41,20,61.87,Needs Improvement
+14,2024-11-26 10:13:00,Lecture,89,Low,239,49,24,64.91,Needs Improvement
+15,2024-11-26 10:14:00,Problem Solving,70,Medium,136,41,24,57.64,Needs Improvement
+16,2024-11-26 10:15:00,Quiz,65,High,259,56,23,57.91,Needs Improvement
+17,2024-11-26 10:16:00,Problem Solving,94,High,108,47,21,79.72,Average
+18,2024-11-26 10:17:00,Problem Solving,67,High,332,40,20,58.58,Needs Improvement
+19,2024-11-26 10:18:00,Problem Solving,96,Low,198,48,23,70.22,Average
+20,2024-11-26 10:19:00,Lecture,73,Medium,246,50,22,58.64,Needs Improvement
+21,2024-11-26 10:20:00,Group Discussion,75,High,403,55,23,63.47,Needs Improvement
+22,2024-11-26 10:21:00,Quiz,74,High,307,46,23,63.73,Needs Improvement
+23,2024-11-26 10:22:00,Group Discussion,94,High,230,49,21,78.5,Average
+24,2024-11-26 10:23:00,Problem Solving,90,Low,251,42,22,65.49,Needs Improvement
+25,2024-11-26 10:24:00,Problem Solving,78,Low,153,57,23,58.07,Needs Improvement
+26,2024-11-26 10:25:00,Group Discussion,64,Medium,219,52,20,52.61,Needs Improvement
+27,2024-11-26 10:26:00,Group Discussion,94,Low,260,46,20,68.2,Needs Improvement
+28,2024-11-26 10:27:00,Group Discussion,50,High,215,43,24,47.85,Needs Improvement
+29,2024-11-26 10:28:00,Problem Solving,74,Medium,174,52,22,60.06,Needs Improvement
+30,2024-11-26 10:29:00,Problem Solving,56,High,212,59,22,52.08,Needs Improvement
+31,2024-11-26 10:30:00,Quiz,58,High,203,40,24,53.57,Needs Improvement
+32,2024-11-26 10:31:00,Quiz,73,Low,439,47,23,51.71,Needs Improvement
+33,2024-11-26 10:32:00,Problem Solving,50,Medium,353,53,22,41.47,Needs Improvement
+34,2024-11-26 10:33:00,Group Discussion,93,Low,326,55,20,66.84,Needs Improvement
+35,2024-11-26 10:34:00,Group Discussion,57,Low,211,53,20,42.79,Needs Improvement
+36,2024-11-26 10:35:00,Quiz,73,Medium,198,51,21,59.12,Needs Improvement
+37,2024-11-26 10:36:00,Problem Solving,60,High,252,58,22,54.48,Needs Improvement
+38,2024-11-26 10:37:00,Quiz,66,High,448,54,23,56.72,Needs Improvement
+39,2024-11-26 10:38:00,Quiz,57,Medium,483,41,24,45.07,Needs Improvement
+40,2024-11-26 10:39:00,Lecture,84,High,465,41,24,69.15,Needs Improvement
+41,2024-11-26 10:40:00,Lecture,84,Medium,437,58,23,64.43,Needs Improvement
+42,2024-11-26 10:41:00,Lecture,82,Medium,293,56,21,64.47,Needs Improvement
+43,2024-11-26 10:42:00,Group Discussion,54,Low,409,59,24,38.71,Needs Improvement
+44,2024-11-26 10:43:00,Problem Solving,91,Medium,262,49,22,71.08,Average
+45,2024-11-26 10:44:00,Problem Solving,88,Low,307,45,21,63.53,Needs Improvement
+46,2024-11-26 10:45:00,Problem Solving,90,High,268,54,22,75.32,Average
+47,2024-11-26 10:46:00,Problem Solving,77,High,260,50,20,66.3,Needs Improvement
+48,2024-11-26 10:47:00,Lecture,56,High,167,44,21,52.53,Needs Improvement
+49,2024-11-26 10:48:00,Group Discussion,58,High,388,40,24,51.72,Needs Improvement
+50,2024-11-26 10:49:00,Group Discussion,57,Low,497,47,21,39.93,Needs Improvement
+51,2024-11-26 10:50:00,Lecture,61,High,376,51,21,53.94,Needs Improvement
+52,2024-11-26 10:51:00,Group Discussion,83,Medium,403,51,21,64.07,Needs Improvement
+53,2024-11-26 10:52:00,Lecture,82,Medium,483,44,21,62.57,Needs Improvement
+54,2024-11-26 10:53:00,Problem Solving,97,Medium,491,46,22,72.99,Average
+55,2024-11-26 10:54:00,Lecture,72,Low,234,43,20,53.06,Needs Improvement
+56,2024-11-26 10:55:00,Problem Solving,73,High,294,45,23,63.16,Needs Improvement
+57,2024-11-26 10:56:00,Problem Solving,86,High,227,52,21,72.93,Average
+58,2024-11-26 10:57:00,Quiz,84,High,132,59,24,72.48,Average
+59,2024-11-26 10:58:00,Lecture,93,Low,275,54,21,67.35,Needs Improvement
+60,2024-11-26 10:59:00,Quiz,89,Medium,470,42,24,67.6,Needs Improvement
+61,2024-11-26 11:00:00,Lecture,71,Medium,474,47,22,54.96,Needs Improvement
+62,2024-11-26 11:01:00,Lecture,76,High,121,59,24,66.99,Needs Improvement
+63,2024-11-26 11:02:00,Quiz,84,Medium,337,55,23,65.43,Needs Improvement
+64,2024-11-26 11:03:00,Quiz,50,Medium,257,52,20,42.43,Needs Improvement
+65,2024-11-26 11:04:00,Lecture,84,Low,137,57,24,62.43,Needs Improvement
+66,2024-11-26 11:05:00,Group Discussion,86,Low,329,49,24,61.91,Needs Improvement
+67,2024-11-26 11:06:00,Problem Solving,96,Low,464,58,20,67.56,Needs Improvement
+68,2024-11-26 11:07:00,Quiz,63,Low,150,56,23,47.6,Needs Improvement
+69,2024-11-26 11:08:00,Problem Solving,52,High,363,58,21,47.77,Needs Improvement
+70,2024-11-26 11:09:00,Group Discussion,50,Low,382,44,24,36.18,Needs Improvement
+71,2024-11-26 11:10:00,Group Discussion,54,Medium,126,48,20,46.54,Needs Improvement
+72,2024-11-26 11:11:00,Group Discussion,75,High,325,51,22,64.25,Needs Improvement
+73,2024-11-26 11:12:00,Quiz,63,Medium,376,40,20,50.34,Needs Improvement
+74,2024-11-26 11:13:00,Group Discussion,88,Medium,385,40,22,67.75,Needs Improvement
+75,2024-11-26 11:14:00,Quiz,76,Medium,196,54,23,61.24,Needs Improvement
+76,2024-11-26 11:15:00,Group Discussion,58,Low,383,41,21,41.77,Needs Improvement
+77,2024-11-26 11:16:00,Problem Solving,64,Low,466,55,20,45.14,Needs Improvement
+78,2024-11-26 11:17:00,Problem Solving,64,High,416,47,24,55.64,Needs Improvement
+79,2024-11-26 11:18:00,Lecture,75,High,403,52,23,63.47,Needs Improvement
+80,2024-11-26 11:19:00,Problem Solving,91,Low,246,40,20,66.24,Needs Improvement
+81,2024-11-26 11:20:00,Lecture,62,Medium,103,55,24,52.37,Needs Improvement
+82,2024-11-26 11:21:00,Problem Solving,81,High,134,46,20,70.36,Average
+83,2024-11-26 11:22:00,Quiz,88,Low,291,44,22,63.69,Needs Improvement
+84,2024-11-26 11:23:00,Problem Solving,98,Low,148,42,20,72.12,Average
+85,2024-11-26 11:24:00,Lecture,81,Low,116,51,20,60.54,Needs Improvement
+86,2024-11-26 11:25:00,Lecture,53,Medium,271,55,20,44.39,Needs Improvement
+87,2024-11-26 11:26:00,Group Discussion,79,Low,319,58,23,57.11,Needs Improvement
+88,2024-11-26 11:27:00,Quiz,86,Low,257,44,20,62.63,Needs Improvement
+89,2024-11-26 11:28:00,Problem Solving,72,Low,145,53,24,53.95,Needs Improvement
+90,2024-11-26 11:29:00,Group Discussion,88,Low,472,44,22,61.88,Needs Improvement
+91,2024-11-26 11:30:00,Problem Solving,94,High,105,54,22,79.75,Average
+92,2024-11-26 11:31:00,Problem Solving,64,High,198,56,20,57.82,Needs Improvement
+93,2024-11-26 11:32:00,Group Discussion,92,Low,479,53,23,64.61,Needs Improvement
+94,2024-11-26 11:33:00,Group Discussion,78,Medium,332,59,23,61.28,Needs Improvement
+95,2024-11-26 11:34:00,Group Discussion,85,High,136,44,24,73.14,Average
+96,2024-11-26 11:35:00,Group Discussion,62,Low,379,51,20,44.61,Needs Improvement
+97,2024-11-26 11:36:00,Group Discussion,81,High,448,55,22,67.22,Needs Improvement
+98,2024-11-26 11:37:00,Problem Solving,56,High,401,55,23,50.19,Needs Improvement
+99,2024-11-26 11:38:00,Group Discussion,71,Medium,280,46,20,56.9,Needs Improvement
+100,2024-11-26 11:39:00,Quiz,77,Low,194,43,23,56.96,Needs Improvement

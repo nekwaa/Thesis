@@ -1,0 +1,7 @@
+{
+    "model_name": "tft",
+    "last_trained": "2025-11-21 02:22",
+    "data_points": 97458,
+    "lookback": 96,
+    "update_frequency": "5 min"
+}

@@ -1,0 +1,7 @@
+{
+    "model_name": "cnn_lstm",
+    "last_trained": "2025-11-21 00:21",
+    "data_points": 97458,
+    "lookback": 96,
+    "update_frequency": "5 min"
+}
