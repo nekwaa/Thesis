@@ -1,0 +1,7 @@
+{
+    "model_name": "tft_noise",
+    "last_trained": "2025-11-27 01:48",
+    "data_points": 100,
+    "lookback": 96,
+    "update_frequency": "1 min"
+}

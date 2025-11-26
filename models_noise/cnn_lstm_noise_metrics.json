@@ -1,0 +1,17 @@
+{
+    "mae": {
+        "Classroom_Noise": 1.554800033569336
+    },
+    "rmse": {
+        "Classroom_Noise": 1.5548016432933656
+    },
+    "mape": {
+        "Classroom_Noise": 3.498076717581137
+    },
+    "accuracy": {
+        "Classroom_Noise": 96.50192328241886
+    },
+    "r2": {
+        "Classroom_Noise": -0.07440362221677788
+    }
+}
