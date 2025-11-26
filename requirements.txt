@@ -1,2 +1,3 @@
 joblib
 tensorflow
+scikit-learn
